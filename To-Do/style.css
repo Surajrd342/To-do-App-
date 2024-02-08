@@ -20,13 +20,12 @@ body {
 }
 
 .main {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 3rem auto;
     border-radius: 0.8rem;
     background-color: #FFF;
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 7%), 0 4px 6px -2px rgb(0 0 0 / 5%);
 }
-
 
 .header {
     padding: 1rem;
@@ -54,8 +53,6 @@ h3 {
 }
 
 .main-form {
-    display: flex;
-    flex-wrap: wrap;
     gap: 10px;
     margin: auto 0.5rem;
     padding: 20px;
@@ -63,11 +60,11 @@ h3 {
 }
 
 .form-item {
-    display: flex;
+    width: 100%;
 }
 
 .form-control {
-    width: 450px;
+    width: 100%;
     padding: 10px;
     font-size: 1rem;
     line-height: 1.5;
@@ -92,4 +89,47 @@ h3 {
     background-color: #153D7D;
     border-radius: 0.3rem;
     margin: 0px;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.mt4 {
+    margin-top: 1rem;
+}
+
+.ul-list {
+    list-style-type: none;
+    list-style: none;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 0.3rem;
+}
+
+.button {
+    border: 0;
+    outline: 0;
+    color: #FFF;
+    cursor: pointer;
+    padding: 0.2rem 1rem;
+    text-transform: uppercase;
+    background-color: #153D7D;
+    border-radius: 0.3rem;
+    margin: 0px;
+}
+
+.bg-red {
+    background-color: red;
 }
