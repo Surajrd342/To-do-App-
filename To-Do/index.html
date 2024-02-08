@@ -15,30 +15,69 @@
             <p>Manage all your task from one place</p>
         </header>
 
-        <div>
+        <div class="">
             <form action="" class="form">
                 <div class="main-form">
-                    <div class="form-item">
-                        <input class="form-control" type="text" name="name" placeholder="Enter your task ">
-                    </div>
-                    <div class="form-item">
-                        <select name="priority" class="form-control" placeholder="Select your priority ">
-                            <option value="0">Low</option>
-                            <option value="1">Medium</option>
-                            <option value="2">High</option>
-                        </select>
+                    <div class="row">
+                        <div class="form-item">
+                            <input class="form-control" type="text" name="name" placeholder="Enter your task ">
+                        </div>
+                        <div class="form-item">
+                            <select name="priority" class="form-control" placeholder="Select your priority ">
+                                <option value="0">Low</option>
+                                <option value="1">Medium</option>
+                                <option value="2">High</option>
+                            </select>
+                        </div>
                     </div>
                     <div class="form-item" id="form-item-desc">
-                        <textarea class="form-control end" name="description" placeholder="Enter your description "
-                            rows="4"></textarea>
+                        <textarea class="form-control mt4" name="description" placeholder="Enter your description " rows="4"></textarea>
                     </div>
-                    <button class="success" type="submit">Add</button>
+                    <div>
+
+                        <button class="success" type="submit">Add</button>
+                    </div>
                 </div>
             </form>
 
-            <div class="ul-list">
-                <ul>
-                    <li></li>
+            <div>
+                <ul class="ul-list">
+                    <li class="todo">
+                        <div class="todo-item">
+                            <div>
+                                <h4>Hello</h4>
+                                <p>Description </p>
+                            </div>
+                            <div>
+                                <button class="button">Complete</button>
+                                <button class="button bg-red">Delete</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="todo">
+                        <div class="todo-item">
+                            <div>
+                                <h4>Hello</h4>
+                                <p>Description </p>
+                            </div>
+                            <div>
+                                <button class="button">Complete</button>
+                                <button class="button bg-red">Delete</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="todo">
+                        <div class="todo-item">
+                            <div>
+                                <h4>Hello</h4>
+                                <p>Description </p>
+                            </div>
+                            <div>
+                                <button class="button">Complete</button>
+                                <button class="button bg-red">Delete</button>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
