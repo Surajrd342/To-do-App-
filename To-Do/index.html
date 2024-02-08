@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="wrapper">
+    <section class="main">
+        <header class="header">
+            <h3 class="heading">TODO APP</h3>
+            <p>Manage all your task from one place</p>
+        </header>
+
+        <div>
+            <form action="" class="form">
+                <div class="main-form">
+                    <div class="form-item">
+                        <input class="form-control" type="text" name="name" placeholder="Enter your task ">
+                    </div>
+                    <div class="form-item">
+                        <select name="priority" class="form-control" placeholder="Select your priority ">
+                            <option value="0">Low</option>
+                            <option value="1">Medium</option>
+                            <option value="2">High</option>
+                        </select>
+                    </div>
+                    <div class="form-item" id="form-item-desc">
+                        <textarea class="form-control end" name="description" placeholder="Enter your description "
+                            rows="4"></textarea>
+                    </div>
+                    <button class="success" type="submit">Add</button>
+                </div>
+            </form>
+
+            <div class="ul-list">
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="main.js"></script>
+
+</html>
